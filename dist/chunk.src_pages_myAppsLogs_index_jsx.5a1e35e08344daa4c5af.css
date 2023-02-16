@@ -1,0 +1,16 @@
+.src-pages-myAppsLogs-index-module__page {
+  margin: 20px;
+}
+.src-pages-myAppsLogs-index-module__page .src-pages-myAppsLogs-index-module__tools {
+  margin: 0 0 15px 0;
+}
+.src-pages-myAppsLogs-index-module__info {
+  margin: 15px 0 0 0;
+}
+.src-pages-myAppsLogs-index-module__info b,
+.src-pages-myAppsLogs-index-module__info p {
+  color: #777;
+  margin: 0;
+  line-height: 25px;
+}
+

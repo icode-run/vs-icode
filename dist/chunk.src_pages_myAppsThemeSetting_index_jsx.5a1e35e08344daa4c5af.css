@@ -1,0 +1,380 @@
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItem {
+  border: 1px solid #d9d9d9;
+  padding: 0;
+  margin: 5px;
+  line-height: 25px;
+  background: #f9f9f9;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle {
+  overflow: hidden;
+  clear: both;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV .ant-input,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle .ant-input,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV .ant-input-number,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle .ant-input-number,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV .ant-select,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle .ant-select {
+  width: 100%;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > label,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle > label {
+  border-right: 1px solid #d9d9d9;
+  padding: 5px 0.4em 5px 0.4em;
+  color: #777;
+  width: 7.5em;
+  float: left;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > div,
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitle > div {
+  margin-left: 7.5em;
+  padding: 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV {
+  display: block;
+  padding-bottom: 2px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > label {
+  float: none;
+  border-right: none;
+  padding: 5px 5px 0 10px;
+  color: #777;
+  position: relative;
+  width: auto;
+  display: block;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > label ._-my-designer-src-components-ViewParamItems-index-module__labelButtons {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  color: #aaa;
+  cursor: pointer;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > label ._-my-designer-src-components-ViewParamItems-index-module__labelButtons:hover {
+  color: #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__viewParamItemTitleV > div {
+  padding: 5px;
+  margin-left: 0;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptionsClose {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  display: none;
+  cursor: pointer;
+  color: #aaa;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptionsClose:hover {
+  color: #333;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptions {
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #eee;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptions:hover {
+  background: #f5f5f5;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptions:hover ._-my-designer-src-components-ViewParamItems-index-module__arrayOptionsClose {
+  display: block;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptionsBtn {
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  color: #777;
+  line-height: 12px;
+  cursor: pointer;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptionsBtn:hover {
+  color: #333;
+}
+._-my-designer-src-components-ViewParamItems-index-module__arrayOptions ._-my-designer-src-components-ViewParamItems-index-module__viewParamItem {
+  border: none !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItem {
+  border-radius: 4px;
+  height: 23px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px dashed #e1e1e1;
+  color: #aaa;
+  text-indent: 5px;
+  line-height: 20px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItem ._-my-designer-src-components-ViewParamItems-index-module__info {
+  color: #ddd;
+  display: block;
+  text-align: center;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemValueBox {
+  line-height: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+  background: #4996b2;
+  color: #deebf7;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemValueBox .ant-tag {
+  line-height: 16px;
+  border: none;
+  padding: 0 4px;
+  color: #00b180;
+  background: rgba(194, 228, 218, 0.8);
+  margin-right: 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__greenBox {
+  background: #00b180;
+  color: #dcf7ef;
+}
+._-my-designer-src-components-ViewParamItems-index-module__greenBox ._-my-designer-src-components-ViewParamItems-index-module__dataItemValue {
+  max-width: none;
+  width: auto;
+  flex: auto;
+}
+._-my-designer-src-components-ViewParamItems-index-module__greenBox + ._-my-designer-src-components-ViewParamItems-index-module__greenBox {
+  margin-top: 2px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__greenBox + ._-my-designer-src-components-ViewParamItems-index-module__dataItem {
+  margin: 2px 5px 0 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemValue {
+  overflow: hidden;
+  width: 90%;
+  max-width: calc(100% - 15px);
+  max-width: 90px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemDelect {
+  cursor: pointer;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemDelect:hover {
+  color: #fff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__titleItemValueBox {
+  background: none;
+  color: #666;
+  padding: 0;
+}
+._-my-designer-src-components-ViewParamItems-index-module__titleItemValueBox ._-my-designer-src-components-ViewParamItems-index-module__dataItemDelect:hover {
+  color: #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemChildrenBox ._-my-designer-src-components-ViewParamItems-index-module__dataItemValueBox {
+  border-radius: 4px 4px 0 0;
+}
+/* string input*/
+._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem {
+  cursor: text;
+  border: 1px solid #d1d1d1;
+  line-height: 20px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem input,
+._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem input:focus {
+  border: none;
+  background: none;
+  box-shadow: none;
+  outline: none;
+  height: 22px;
+  width: 80%;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemInputWidth input,
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemInputWidth input:focus {
+  width: 100%;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemInput {
+  display: flex;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemInput input {
+  color: #333;
+  width: calc(100% - 20px) !important;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemOkBtn {
+  border-left: 1px solid #ddd;
+  width: 20px;
+  text-align: center;
+  color: #bbb;
+  cursor: pointer;
+  text-indent: 0;
+  font-size: 9px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStringItemOkBtnSelected {
+  color: #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem input:focus,
+._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem:hover input {
+  background: #fff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemSelected {
+  border: 1px solid #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemStringInput {
+  margin: 2px 0;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemStringInput > div {
+  color: #fff !important;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemStringInput > div > div {
+  border: none;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dataItemStringInput input {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: #333;
+}
+/**/
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox > div {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox ._-my-designer-src-components-ViewParamItems-index-module__childrenTop {
+  border-top: 1px solid #ddd;
+}
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox ._-my-designer-src-components-ViewParamItems-index-module__dataStrintItem {
+  width: 100px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox .ant-input-sm {
+  width: 100px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__childrenBox .ant-input-number {
+  width: 100%;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dropContainer {
+  height: 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__dropContainerSelect {
+  background: #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__relationComponentBox {
+  max-height: 250px;
+  overflow-y: auto;
+  margin: 0 10px 10px 5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__relationComponentBox label {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+._-my-designer-src-components-ViewParamItems-index-module__closeTop {
+  border-top: 0px;
+  margin-top: -5px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #aaa;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 20px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn ._-my-designer-src-components-ViewParamItems-index-module__iconBox {
+  font-size: 40px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn ._-my-designer-src-components-ViewParamItems-index-module__imgBox {
+  margin: 2px;
+  width: 74px;
+  height: 74px;
+  position: relative;
+  overflow: hidden;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn ._-my-designer-src-components-ViewParamItems-index-module__imgBox > img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn ._-my-designer-src-components-ViewParamItems-index-module__remove {
+  display: none;
+  font-size: 20px;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn ._-my-designer-src-components-ViewParamItems-index-module__remove svg:hover {
+  color: #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn:hover {
+  color: #999;
+  border: 1px solid #aaa;
+}
+._-my-designer-src-components-ViewParamItems-index-module__iconBtn:hover ._-my-designer-src-components-ViewParamItems-index-module__remove {
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  line-height: 80px;
+}
+
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsBox {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  padding: 3px 0 3px 3px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsBox li {
+  margin: 1px;
+  padding: 0;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsBoxLink {
+  cursor: pointer;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsBoxLink:hover {
+  border: 1px solid #1890ff;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsItemSlider {
+  display: flex;
+  flex-direction: row;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsItemSlider > span {
+  width: 6em;
+}
+._-my-designer-src-components-ViewParamItems-ColorsItem-index-module__colorsItemSlider > div {
+  flex: auto;
+}
+
+.src-pages-myAppsThemeSetting-index-module__box {
+  padding: 20px;
+}
+.src-pages-myAppsThemeSetting-index-module__box h2 {
+  font-size: 16px;
+  line-height: 50px;
+  color: #555;
+}
+

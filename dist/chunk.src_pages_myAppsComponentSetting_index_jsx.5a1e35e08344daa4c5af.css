@@ -1,0 +1,280 @@
+.src-pages-myAppsComponentSetting-index-module__page {
+  margin: 20px;
+}
+.src-pages-myAppsComponentSetting-index-module__page .src-pages-myAppsComponentSetting-index-module__tools {
+  margin: 0 0 15px 0;
+  display: flex;
+  flex-direction: row;
+}
+.src-pages-myAppsComponentSetting-index-module__page .src-pages-myAppsComponentSetting-index-module__tools > div:first-child {
+  flex: auto;
+}
+.src-pages-myAppsComponentSetting-index-module__page .src-pages-myAppsComponentSetting-index-module__tools > div:last-child {
+  width: 200px;
+  text-align: right;
+}
+.src-pages-myAppsComponentSetting-index-module__info {
+  margin: 15px 0 0 0;
+}
+.src-pages-myAppsComponentSetting-index-module__info b,
+.src-pages-myAppsComponentSetting-index-module__info p {
+  color: #777;
+  margin: 0;
+  line-height: 25px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree {
+  padding-top: 15px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-indent {
+  display: none;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-treenode-motion,
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-treenode {
+  width: 100%;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-switcher {
+  width: 5px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree .ant-tree-treenode-switcher-open .ant-tree-node-content-wrapper {
+  position: initial;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-node-content-wrapper {
+  width: calc(100% - 60px);
+  cursor: default;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-node-content-wrapper:hover,
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background: none;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-title .src-pages-myAppsComponentSetting-index-module__treeTitle {
+  color: #777;
+  font-weight: normal;
+  font-size: 12px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .ant-tree-switcher-icon {
+  display: none;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeTitle {
+  font-weight: bold;
+  position: relative;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeTitle .src-pages-myAppsComponentSetting-index-module__close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #999;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeTitle .src-pages-myAppsComponentSetting-index-module__close:hover {
+  color: #40a9ff;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 -5px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__img {
+  width: 40px;
+  height: 40px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__img img {
+  width: 100%;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content {
+  padding: 0 0 0 10px;
+  flex: auto;
+  position: relative;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content .src-pages-myAppsComponentSetting-index-module__close {
+  position: absolute;
+  right: -5px;
+  top: 0px;
+  color: #999;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content .src-pages-myAppsComponentSetting-index-module__close:hover {
+  color: #40a9ff;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content h2 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content p {
+  text-align: left;
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+}
+.src-pages-myAppsComponentSetting-index-module__tree .src-pages-myAppsComponentSetting-index-module__treeItem .src-pages-myAppsComponentSetting-index-module__content p span {
+  float: left;
+}
+.src-pages-myAppsComponentSetting-index-module__mainCongtent {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+}
+.src-pages-myAppsComponentSetting-index-module__mainCongtent .src-pages-myAppsComponentSetting-index-module__content {
+  flex: 1;
+}
+.src-pages-myAppsComponentSetting-index-module__mainCongtent .src-pages-myAppsComponentSetting-index-module__content .src-pages-myAppsComponentSetting-index-module__title {
+  background: #f5f5f5;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px solid #ddd;
+}
+.src-pages-myAppsComponentSetting-index-module__mainCongtent .src-pages-myAppsComponentSetting-index-module__content .src-pages-myAppsComponentSetting-index-module__title .src-pages-myAppsComponentSetting-index-module__sidebar {
+  width: 130px;
+  border-right: 1px solid #ddd;
+  white-space: nowrap;
+  float: left;
+  height: 40px;
+}
+.src-pages-myAppsComponentSetting-index-module__mainCongtent .src-pages-myAppsComponentSetting-index-module__content .src-pages-myAppsComponentSetting-index-module__title .src-pages-myAppsComponentSetting-index-module__rightContent {
+  margin: 0 0 0 130px;
+}
+.src-pages-myAppsComponentSetting-index-module__listBox {
+  position: relative;
+  height: calc(100vh - 140px);
+}
+.src-pages-myAppsComponentSetting-index-module__listBox .src-pages-myAppsComponentSetting-index-module__sidebar {
+  width: 130px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+.src-pages-myAppsComponentSetting-index-module__listBox .src-pages-myAppsComponentSetting-index-module__sidebar a {
+  display: block;
+  color: #333;
+  padding: 0 15px;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  text-align: right;
+}
+.src-pages-myAppsComponentSetting-index-module__listBox .src-pages-myAppsComponentSetting-index-module__sidebar a::before {
+  content: '';
+  width: 1px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  background: #eee;
+}
+.src-pages-myAppsComponentSetting-index-module__listBox .src-pages-myAppsComponentSetting-index-module__sidebar a.src-pages-myAppsComponentSetting-index-module__active {
+  color: #1890ff;
+}
+.src-pages-myAppsComponentSetting-index-module__listBox .src-pages-myAppsComponentSetting-index-module__sidebar a.src-pages-myAppsComponentSetting-index-module__active::before {
+  background: #1890ff;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox {
+  height: 100%;
+  margin-left: 150px;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li {
+  list-style: none;
+  margin: 5px;
+  padding: 5px 10px;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  width: calc(100% - 25px);
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li .src-pages-myAppsComponentSetting-index-module__img {
+  text-align: left;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li .src-pages-myAppsComponentSetting-index-module__img h4 {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li .src-pages-myAppsComponentSetting-index-module__img p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #777;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li .src-pages-myAppsComponentSetting-index-module__img p span {
+  padding-left: 20px;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li:hover {
+  background: #f5f5f5;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li:hover .src-pages-myAppsComponentSetting-index-module__more {
+  display: block;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox li.src-pages-myAppsComponentSetting-index-module__active {
+  background: #f5f5f5;
+  border: 1px solid #1890ff;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox .src-pages-myAppsComponentSetting-index-module__more {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  top: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox .src-pages-myAppsComponentSetting-index-module__imagesUlTitle {
+  border-bottom: 1px dotted #eee;
+  height: 6px;
+  position: relative;
+  margin: 18px 0 15px 0;
+}
+.src-pages-myAppsComponentSetting-index-module__imagesBox .src-pages-myAppsComponentSetting-index-module__imagesUlTitle span {
+  height: 12px;
+  background: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 12px;
+  position: absolute;
+  left: 20px;
+  font-size: 12px;
+  top: 0;
+  color: #999;
+}
+
+.src-pages-myAppsComponentSetting-RemoteComponent-index-module__box .ant-tag {
+  white-space: pre-wrap;
+}
+.src-pages-myAppsComponentSetting-RemoteComponent-index-module__box ul,
+.src-pages-myAppsComponentSetting-RemoteComponent-index-module__box li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.src-pages-myAppsComponentSetting-RemoteComponent-index-module__box .src-pages-myAppsComponentSetting-RemoteComponent-index-module__li {
+  border: 1px dotted #ddd;
+  margin: 0 0 5px 0;
+  border-radius: 2px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+.src-pages-myAppsComponentSetting-RemoteComponent-index-module__box .src-pages-myAppsComponentSetting-RemoteComponent-index-module__liActive {
+  background-color: #f9f9f9;
+}
+

@@ -1,0 +1,55 @@
+.src-pages-demoStore-index-module__anliBox {
+  padding: 30px 40px;
+  margin: 20px 0;
+}
+.src-pages-demoStore-index-module__anliBox ul,
+.src-pages-demoStore-index-module__anliBox li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.src-pages-demoStore-index-module__anliBox li {
+  width: 25%;
+  margin: 0;
+  display: inline-block;
+}
+.src-pages-demoStore-index-module__anliBox li > div {
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+}
+.src-pages-demoStore-index-module__anliBox li > div:hover {
+  box-shadow: 0px 0px 5px rgba(13, 69, 116, 0.4);
+}
+.src-pages-demoStore-index-module__anliBox li div.src-pages-demoStore-index-module__img {
+  margin: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.src-pages-demoStore-index-module__anliBox li img {
+  width: 100%;
+  margin: 0 auto;
+}
+.src-pages-demoStore-index-module__anliBox li .src-pages-demoStore-index-module__tools {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ddd;
+  height: 40px;
+  line-height: 40px;
+}
+.src-pages-demoStore-index-module__anliBox li .src-pages-demoStore-index-module__priceText {
+  color: #666;
+  padding: 0 0 0 10px;
+}
+.src-pages-demoStore-index-module__anliBox li .src-pages-demoStore-index-module__priceText span {
+  color: #ce8526;
+  padding-left: 5px;
+}
+.src-pages-demoStore-index-module__anliBox li .src-pages-demoStore-index-module__buttons {
+  padding-right: 5px;
+  flex: auto;
+  text-align: right;
+  cursor: pointer;
+}
+

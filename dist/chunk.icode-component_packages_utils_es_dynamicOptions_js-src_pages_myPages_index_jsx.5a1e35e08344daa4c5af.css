@@ -1,0 +1,89 @@
+.src-pages-myPages-index-module__appsPages .ant-tabs-nav-container,
+.src-pages-myPages-index-module__appsPages .ant-tabs-tab {
+  height: 30px !important;
+  line-height: 28px !important;
+}
+.src-pages-myPages-index-module__appsPages .ant-tabs-bar {
+  margin: 0 0 10px 0;
+}
+.src-pages-myPages-index-module__appsPages .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  color: #333;
+}
+.src-pages-myPages-index-module__appsContent h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.src-pages-myPages-index-module__appsContent p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+.src-pages-myPages-index-module__appsContent img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px 4px 0 0;
+}
+.src-pages-myPages-index-module__content {
+  width: calc(100vw - 250px - 10px);
+  margin: 0 0 0 10px;
+}
+
+.src-pages-myPages-components-PageListBar-index-module__componentBar {
+  width: 250px !important;
+  background: #fff;
+  height: calc(100vh - 50px) !important;
+  padding-top: 3px;
+  border-right: 1px solid #d4d4d4;
+}
+.src-pages-myPages-components-PageListBar-index-module__componentBar .src-pages-myPages-components-PageListBar-index-module__hideBtn span {
+  left: auto;
+  right: 0;
+  width: 20px;
+}
+.src-pages-myPages-components-PageListBar-index-module__tabBarExtraContent {
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.src-pages-myPages-components-PageListBar-index-module__tabBarExtraContent i > * {
+  font-size: 14px;
+}
+.src-pages-myPages-components-PageListBar-index-module__tabBarExtraContent i:hover {
+  color: #1890ff;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox .src-pages-myPages-components-PageListBar-index-module__searchBox {
+  border-bottom: 1px solid #eee;
+  padding: 0 15px 10px 15px;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox ul,
+.src-pages-myPages-components-PageListBar-index-module__listBox li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox ul {
+  margin-top: 10px;
+  height: calc(100vh - 50px - 130px);
+  overflow-y: auto;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox li {
+  height: 38px;
+  line-height: 38px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox li i {
+  opacity: 0.5;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox li:hover {
+  background: #f9f9f9;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox .src-pages-myPages-components-PageListBar-index-module__active {
+  color: #1890ff;
+}
+.src-pages-myPages-components-PageListBar-index-module__listBox .src-pages-myPages-components-PageListBar-index-module__pageName i {
+  margin-right: 10px;
+}
+

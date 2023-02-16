@@ -1,0 +1,67 @@
+<!doctype html><html lang="zh-cn"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=0.3,user-scalable=yes"/><title>ICode低代码平台</title><script defer="defer" src="/web/index5a1e35e08344daa4c5af.js?5a1e35e08344daa4c5af"></script><script defer="defer" src="/web/remoteEntry.js?5a1e35e08344daa4c5af"></script></head><body><div id="icode_web_root" class="icode_web_root"></div><script>var imgData = '//www.icoderun.com/staticImages/1659668668690-icode.png';
+      var bg = '//www.icoderun.com/staticImages/1659668611382-icode.png';
+      var $body = document.body;
+      if($body ) {
+        var $style = document.createElement('style');
+        $style.innerHTML = '@keyframes pageLoadingRound {0% {transform: rotate(0deg);}100% {transform: rotate(360deg);}';
+
+        var $img = document.createElement('img');
+        $img.src = imgData;
+        $img.style.width = '80px';
+        $img.style.position = 'absolute';
+        $img.style.top = '50%';
+        $img.style.left = '50%';
+        $img.style.transform = 'translate(-50%, -50%)';
+        var $imgBg = document.createElement('img');
+        $imgBg.style.width = '230px';
+        $imgBg.style.height = '230px';
+        $imgBg.style.margin = '-15px';
+        $imgBg.src = bg;
+        $imgBg.style.opacity = '0.3';
+        $imgBg.style.animation = 'pageLoadingRound 20s linear infinite';
+        var $imgBox = document.createElement('div');
+        $imgBox.style.width = '200px';
+        $imgBox.style.height = '200px';
+        $imgBox.style.overflow = 'hidden';
+        $imgBox.style.position = 'relative';
+        $imgBox.style.left = '50%';
+        $imgBox.style.top = '50%';
+        $imgBox.style.transform = 'translate(-50%, -50%)';
+        $imgBox.style.borderRadius = '200px';
+        $imgBox.style.background = '#fff';
+        $imgBox.appendChild($img);
+        $imgBox.appendChild($imgBg);
+        $imgBox.style.border = '4px solid #3c1b81';
+        var $box = document.createElement('div');
+        $box.style.position = 'fixed';
+        $box.style.top = '0px';
+        $box.style.left = '0px';
+        $box.style.width = '100%';
+        $box.style.height = '100%';
+        $box.style.background = '#fff2ed';//'rgba(255, 212, 195,0.3)';
+        $box.style.opacity = '1';
+        $box.style.transition = 'opacity 1s';
+        $box.style.zIndex = 9999999999;
+
+        $box.appendChild($imgBox);
+
+        $body.appendChild($box);
+        $body.appendChild($style);
+
+        var timeValue = setInterval(function() {
+          if(document.getElementById('icode_web_root').innerHTML) {
+            $box.opacity = '0';
+            clearInterval(timeValue);
+            timeValue = null;
+            setTimeout(function() {
+              $body.removeChild($box);
+              $body.removeChild($style);
+              $box = null;
+              $style = null;
+              $imgBox = null;
+              $imgBg = null;
+              $img = null;
+            }, 1000);
+          }
+        }, 200);
+      }</script><noscript>如果你看到这个提示，说明 <strong>您的浏览器没有启用 JavaScript</strong>, 请 <strong>开启 JS</strong>。</noscript></body></html>
